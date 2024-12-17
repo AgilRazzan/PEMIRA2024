@@ -159,6 +159,9 @@ footer {
 
 /* Responsive Styles */
 @media (max-width: 768px) {
+  .logo h1 {
+  font-size: 15px;
+}
   .hero {
     flex-direction: column;
     padding: 20px;
