@@ -3,6 +3,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: roboto;
 }
 
 body {
@@ -115,12 +116,17 @@ nav a {
   height: auto;
   opacity: 0.7;
 }
+ body .formore p{
+  text-align: center;
+  padding-top:10px;
+  font-size: 20px;
+}
 
 /* Info Section Styles */
 .info {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 .info-item {
@@ -132,10 +138,14 @@ nav a {
 .info-item img {
   height: 30px;
   margin-bottom: 10px;
+  
 }
 
 .info-item span {
   font-weight: bold;
+  align-content: center;
+  text-align: center;
+ 
 }
 
 /* Footer Styles */
@@ -187,5 +197,7 @@ footer {
 
   .info-item {
     padding: 10px;
+    text-align: center;
+    align-content: center;
   }
 }
