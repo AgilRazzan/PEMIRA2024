@@ -116,7 +116,7 @@ nav a {
   height: auto;
   opacity: 0.7;
 }
- body .formore p{
+.formore {
   text-align: center;
   padding-top:10px;
   font-size: 20px;
